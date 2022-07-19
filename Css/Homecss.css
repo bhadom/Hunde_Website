@@ -1,0 +1,61 @@
+/*validiert*/
+/*=============================
+CSS für Hunde-Site Ük 101
+Autor: Michael Hadorn
+Erstelldatum: 12.12.2018
+Version:1.0
+===============================*/
+
+/*=============================
+
+Inhaltsverzeichnis
+
+1. Textbox
+2. Bild
+
+===============================*/
+
+
+
+/*=============================
+1. Textbox
+===============================*/
+
+.Container{
+    width: 800px;
+    height: 400px;
+    background-color: #F1F3F2;
+    text-align: left;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 100px;
+    padding-left:10px;
+    margin: auto;
+    font-family: "MS sans serif";
+    
+}
+.Container h2{
+    text-align: center;
+}
+.Container p{
+    padding-right: 5px;
+}
+/*=============================
+2. Bild
+===============================*/
+
+main img{
+    background-size: 400px 500px;
+    background-repeat: no-repeat;
+    border: 10px solid #251B0B;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    border-radius: 15px;
+    top: 0px;
+    bottom: 0px;
+    left: 1100px;
+    right: 0px;
+    margin: auto;
+}

@@ -1,0 +1,58 @@
+/*validiert*/
+/*=============================
+CSS für Hunde-Site Ük 101
+Autor: Michael Hadorn
+Erstelldatum: 12.12.2018
+Version:1.0
+===============================*/
+
+/*=============================
+
+Inhaltsverzeichnis
+
+1. Bild
+2. Formular
+
+===============================*/
+
+
+
+/*=============================
+1. Bild
+===============================*/
+
+main img{
+    background-size: 400px 500px;
+    background-repeat: no-repeat;
+    border: 10px solid #251B0B;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    border-radius: 15px;
+    top: 0px;
+    bottom: 0px;
+    left: 1100px;
+    right: 0px;
+    margin: auto;
+}
+/*=============================
+2. Formular
+===============================*/
+form  input[type=text],textarea, label, input[type=email], input[type=submit]{
+    width: 60%;
+    margin-left: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    float: left;
+    display: inline-block;
+   
+    
+}
+form textarea{
+    height: 200px;
+    resize: none;
+    
+}
+form input[type=text], textarea, input[type=email], input[type=submit]{
+    padding:12px;
+}

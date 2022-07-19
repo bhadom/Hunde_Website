@@ -1,0 +1,76 @@
+/*validiert*/
+/*=============================
+CSS für Hunde-Site Ük 101
+Autor: Michael Hadorn
+Erstelldatum: 12.12.2018
+Version:1.0
+===============================*/
+
+/*=============================
+
+Inhaltsverzeichnis
+
+1. Bild
+2. Erste Textbox
+3. Zweite Textbox
+4. Schriftbearbeitung
+
+===============================*/
+
+
+
+/*=============================
+1. Bild
+===============================*/
+main img{
+    background-size: 400px 500px;
+    width: 400px;
+    height: 500px;
+    float:left;
+    background-color:black;
+    margin: 10px;
+    margin-top: 140px;
+    border: 10px solid #251B0B;
+    border-radius: 15px;
+}
+/*=============================
+2. Erste Textbox
+===============================*/
+.FirstTextbox{
+    background-color: #F3F1F2;
+    width: 900px;
+    margin-left: 550px;
+    height: 300px;
+}
+/*=============================
+3. Zweite Textbox
+===============================*/
+
+.SecondTextbox{
+    background-color: #F3F1F2;
+    width: 900px;
+    margin-top: 100px;
+    margin-left: 550px;
+    height: 300px;
+}
+/*=============================
+4. Schriftbearbeitung
+===============================*/
+.SecondTextbox article {
+    
+    color: black;
+}
+
+article{
+   
+    text-align: left;
+}
+article p{
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+h3{
+    text-align: center;
+    padding-top:10px;
+}
